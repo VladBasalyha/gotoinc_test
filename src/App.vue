@@ -135,7 +135,7 @@ function onSubmit() {
           >Parcel description:</label
         >
         <textarea
-          class="form-textarea mt-1 block w-full border-2 border-gray-200 rounded-md p-2"
+          class="form-textarea mt-1 block w-full border-2 border-gray-200 rounded-md p-2 resize-none"
           id="parcel-description"
           rows="3"
           v-model="request.parcelDescription"
