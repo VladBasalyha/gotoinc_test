@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: black;
+  min-height: 100vh;
+}
+#app {
+  padding: 20px;
+}
